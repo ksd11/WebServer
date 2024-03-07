@@ -86,6 +86,7 @@ bool HttpRequest::ParseRequestLine_(const string& line) {
         state_ = HEADERS;
         return true;
     }
+    // LOG_ERROR("RequestLine : %s", line);
     LOG_ERROR("RequestLine Error");
     return false;
 }

@@ -12,3 +12,5 @@
 *.log
 *.exe
 /.vscode
+.cache/
+compile_commands.json
